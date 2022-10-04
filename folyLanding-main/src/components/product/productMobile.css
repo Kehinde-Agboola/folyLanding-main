@@ -1,0 +1,43 @@
+@media screen and (max-width: 800px) {
+  .product__section {
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .fylo__product-img img {
+    width: 100%;
+  }
+
+  .fylo__product-content {
+    /* width: 500px; */
+    margin-top: 2.5rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .product__section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .fylo__product-img img {
+    width: 100%;
+  }
+
+  .fylo__product-content {
+    /* width: 500px; */
+    margin-top: 2.5rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .fylo__product-content p {
+    /* width: 500px; */
+    line-height: 1.6;
+    font-size: 0.7rem;
+  }
+}

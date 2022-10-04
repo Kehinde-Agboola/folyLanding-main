@@ -1,0 +1,45 @@
+.fylo__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.fylo__navbar-links_logo img {
+  width: 90%;
+}
+
+.fylo__navbar-links_container a {
+  padding: 0 15px 0 25px;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.fylo__navbar-links_container a:hover {
+  color: var(--cyan);
+  transition: all 1s ease-in-out;
+}
+
+.fylo__navbar-links_container a:after {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 2.5px;
+  background: var(--cyan);
+  top: 25px;
+  /* left: 10px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.fylo__navbar-links_container a:hover::after {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}

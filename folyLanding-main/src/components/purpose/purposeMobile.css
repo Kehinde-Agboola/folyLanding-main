@@ -1,0 +1,47 @@
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 800px) {
+  .foyl-items {
+    grid-template-columns: 320px;
+    justify-content: center;
+  }
+
+  .foyl__single {
+    margin-bottom: 40px;
+  }
+
+  .foyl__single h2 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .foyl__single p {
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .foyl-items {
+    grid-template-columns: 320px;
+    justify-content: center;
+  }
+
+  .foyl__single {
+    margin-bottom: 40px;
+  }
+
+  .foyl__single h2 {
+    font-size: 1.3rem;
+  }
+
+  .foyl__single p {
+    /* padding-left: 1.2rem;
+        padding-right: 1.2rem; */
+    font-size: 0.85rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+}

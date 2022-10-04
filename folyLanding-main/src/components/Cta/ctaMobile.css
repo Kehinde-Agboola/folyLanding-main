@@ -1,0 +1,36 @@
+/* Responsive Call To Action Section */
+@media screen and (max-width: 830px) {
+  .cta {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .cta-container h2 {
+    font-size: 2rem;
+  }
+  .cta-container form {
+    flex-direction: column;
+  }
+  .cta-container form input[type="email"] {
+    max-width: unset;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .cta-container form .btn {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cta-container {
+    padding: 30px 30px;
+  }
+  .cta-container h2 {
+    font-size: 1.5rem;
+  }
+  .cta-container form input[type="email"] {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .cta-container form .btn {
+    width: 95%;
+  }
+}

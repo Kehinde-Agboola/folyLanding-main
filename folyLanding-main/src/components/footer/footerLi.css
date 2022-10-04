@@ -1,0 +1,46 @@
+.footer-nav-line-1 ul li,
+.footer-nav-line-2 ul li {
+  margin: 8px 0 15px 0;
+}
+.footer-nav-line-1 ul li a,
+.footer-nav-line-2 ul li a {
+  display: block;
+  text-transform: capitalize;
+  color: var(--white);
+  transition: font-weight 0.3s;
+}
+.footer-nav-line-1 ul li a:hover,
+.footer-nav-line-2 ul li a:hover {
+  color: var(--cyan);
+  text-decoration: underline;
+  transition: all 500ms ease-in-out;
+}
+.social-links {
+  grid-area: social-links;
+}
+.social-links ul {
+  display: flex;
+  margin-top: 8px;
+}
+.social-links ul li {
+  margin-right: 25px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--white);
+  transition: border 0.3s;
+}
+.social-links ul li:hover {
+  border: 1px solid var(--cyan);
+}
+.social-links ul li a {
+  font-size: 12px;
+  color: var(--white);
+  transition: color 0.3s;
+}
+.social-links ul li:hover a {
+  color: var(--cyan);
+}

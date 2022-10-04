@@ -1,0 +1,68 @@
+.fylo {
+  text-align: center;
+  padding: 50px 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* testing */
+  padding: 40px 0;
+  background-image: url("../../assets/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.fylo-img {
+  width: 80%;
+  max-width: 700px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.fylo__content {
+  width: 80%;
+  max-width: 550px;
+}
+
+.fylo__content h1 {
+  line-height: 1.5;
+  padding-top: 1rem;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.fylo__content p {
+  color: var(--white);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 1.7;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  /* font-size: 0.9rem; */
+}
+
+.btn {
+  display: inline-block;
+  width: 220px;
+  cursor: pointer;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+
+  border-radius: 30px;
+  color: var(--white);
+  padding: 17px 30px;
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  margin-top: 0.8rem;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, var(--blue), var(--cyan));
+  transition: all 500ms ease-in-out;
+}

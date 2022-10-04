@@ -1,0 +1,48 @@
+.cta {
+  background-color: var(--dark-blue-2);
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+.cta-container {
+  width: 90%;
+  max-width: 800px;
+  padding: 4rem 70px;
+  transform: translate(0%, 50%);
+  background: var(--dark-blue-1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-container h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.cta-container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.cta-container form .btn {
+  width: 200px;
+}
+
+.cta-container p {
+  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.cta-container form input[type="email"] {
+  width: 100%;
+  max-width: 400px;
+  border: 0;
+  margin-top: 10px;
+  padding: 14px 30px;
+  border-radius: 20px;
+}
